@@ -1,0 +1,356 @@
+/*Navbar*/
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1.5rem 0;
+  background-color: #1F2833;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+}
+
+.navbar a:hover {
+  color: #d1d1d1;
+}
+
+.nav.active {
+  text-decoration: underline;
+  text-underline-offset: 0.7rem;
+  text-decoration-color: #45A29E;
+
+}
+
+
+
+/*Pages*/
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #13141b;
+  color: white;
+}
+
+.page {
+  text-align: center;
+}
+
+.hero {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-content {
+  z-index: 2;
+  position: relative;
+}
+
+.hero-shade {
+  position: absolute;
+  inset: 0;                 /* covers full hero */
+  background: rgba(0, 0, 0, 0.45);
+  z-index: 1;
+}
+
+h1 {
+  font-size: 50px;
+  color: #66FCF1;
+  margin: 0;
+  padding-top: 2rem;
+}
+
+.homeh1 {
+  padding-top: 13rem;
+  text-shadow:
+    2px 2px 4px black,
+    0 0 1em rgb(0, 0, 0),
+    0 0 0.2em rgb(0, 0, 0);
+    position: relative;
+    z-index: 2;
+}
+
+.herotxt {
+  font-size: 1.4rem;
+  text-shadow:
+    1px 1px 2px black,
+    0 0 0.5em rgb(0, 0, 0),
+    0 0 0.2em rgb(0, 0, 0);
+    position: relative;
+    z-index: 2;
+}
+
+.aboutContainer {
+  display: flex;
+
+}
+
+svg {
+  width: 32px;
+  height: 32px;
+}
+
+.toolbox {
+  float: left;
+  padding: 1rem;
+  align-items: center;
+  display: flex;
+}
+
+td {
+  padding: 3rem 0 0 3rem;
+
+}
+
+.leftAbout {
+  float: left;
+  width: 40%;
+  text-align: left;
+  padding: 40px 5rem 0rem 5rem;
+}
+
+.leftAbout svg {
+  width: 40%;
+  height: 40%;
+  margin: 9% 25%;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+.p1 {
+  color: #BDBDBD;
+}
+
+.rightAbout {
+  float: left;
+  width: 60%;
+  padding-left: 2rem;
+}
+
+.rightAbout svg{
+  padding-left: 5px;
+}
+
+.headColumn {
+  font-size: larger;
+  text-align: left;
+  font-weight: bold;
+}
+
+.toolbox {
+  width: 161px;
+  box-sizing: border-box;
+  background-color: #242633;
+  display: flex;
+  justify-content: center;
+  margin: 3px;
+  border-radius: 25px;
+  transition: background-color 0.25s ease, transform 0.2s ease;
+}
+
+.toolbox:hover {
+  background-color: #34374A;
+  transform: translateY(-2px);
+}
+
+
+
+/* Projects Page */
+.projects-page {
+  padding: 4rem 8%;
+}
+
+.projects-top-text {
+  text-align: center;
+  padding-bottom: 5rem;
+}
+
+.project-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 6rem;
+}
+
+/* LEFT */
+.project-text h2 {
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
+}
+
+.project-text p {
+  line-height: 1.6;
+  opacity: 0.85;
+}
+
+/* RIGHT CARD */
+.project-image-card {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  cursor: pointer;
+
+  transform: translateY(0) scale(1);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.project-image-card img {
+  width: 100%;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+/* DARK OVERLAY */
+.image-shade {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+  transition: opacity 0.3s ease;
+}
+
+/* HOVER EFFECTS */
+.project-image-card:hover {
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+}
+
+.project-image-card:hover .image-shade {
+  opacity: 0;
+}
+
+/* Modal */
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.modal-content {
+  position: relative;
+}
+
+.modal-content img {
+  height: auto;
+  width: auto;
+  border-radius: 16px;
+  max-height: calc(100vh - 190px);
+  max-width: calc(100vw - 290px);
+  
+}
+
+.modal-content button {
+  position: absolute;
+  background: none;
+  color: white;
+  font-size: 2.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+.prev { left: -3rem; top: 50%; }
+.next { right: -3rem; top: 50%; }
+.close { top: -3rem; right: 0; }
+
+/* Navigation */
+.modal-content .nav {
+  position: absolute;
+  top: 50%;
+  font-size: 3rem;
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transform: translateY(-50%);
+}
+
+.modal-content .prev { left: -3rem; }
+.modal-content .next { right: -3rem; }
+
+/* Close */
+.modal-content .close {
+  position: absolute;
+  top: -4rem;
+  right: -4rem;
+  font-size: 2.5rem;
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+} */
+
+
+
+
+
+/*Contact page*/
+.contactInputs {
+  color: white;
+  background-color: #1F2833;
+  width: 30rem;
+  height: 1.5rem;
+  margin-bottom: 0.5rem;
+  border: 0;
+}
+
+.contactMessage {
+  color: white;
+  width: 30.1rem;
+  height: 5rem;
+  background-color: #1F2833;
+  border: 0;
+  resize: none;
+}
+
+.contactButton {
+  align-items: left;
+  height: 2rem;
+}
+
+
+/*Footer*/
+.footer {
+  background-color: #1e1e1e;
+  color: #aaa;
+  text-align: center;
+  padding: 1rem 1rem;
+  margin-top: 4rem;
+  font-size: 0.9rem;
+  /* position: fixed;
+  bottom: 0; */
+  height: 5%;
+}
+
+.footer-links {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.footer-links a {
+  color: #aaa;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: white;
+  text-decoration: underline;
+}
