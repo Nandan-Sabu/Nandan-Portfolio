@@ -55,7 +55,7 @@ const Home = () => {
     <section className="page">
 
       <div className="hero" style={{
-        backgroundImage: "url('/Background.jpg')",
+        backgroundImage: "url('\Background.jpg')",
         backgroundAttachment: "fixed",
         backgroundSize: "cover",
         backgroundPosition: "center",
