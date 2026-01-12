@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+<mask id="faceMask">
+<rect width="400" height="500" stroke="none" fill="#BDBDBD"/>
+<circle cx="200" cy="100" r="105" stroke-width="30" stroke="black" fill="#BDBDBD" />
+</mask>
+<g mask="url(#faceMask)">
+<ellipse cx="200" cy="450" rx="180" ry="270" stroke-width="30" fill="#BDBDBD"/>
+<circle cx="200" cy="100" r="90" stroke="none" fill="#BDBDBD"/>
+</g>
+</svg>
