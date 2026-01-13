@@ -69,22 +69,22 @@ const Home = () => {
             transform: `translate(${offset.x}px, ${offset.y}px)`,
           }}
         >
-        <h1 className="homeh1">Hi, I'm Nandan</h1>
-        <p className="herotxt">Aspiring Developer and Computer Science Graduate from University of Auckland</p>
+          <h1 className="homeh1">Hi, I'm Nandan</h1>
+          <p className="herotxt">Aspiring Developer and Computer Science Graduate from University of Auckland</p>
         </div>
       </div>
       <div className="aboutContainer">
         <div className="leftAbout">
-          <div className='profileIcon'><ProfileIcon/></div>
+          <div className='profileIcon'><ProfileIcon /></div>
           <h2>Nandan Sabu</h2>
           <p className="p1">I am a highly motivated graduate who is passionate about software development. Skilled in
-            programming languages such as Python, Java and React. 
-            I graduated from University of Auckland with a Bachelors degree in Science, majoring in Computer Science and Information Technology Management. 
+            programming languages such as Python, Java and React.
+            I graduated from University of Auckland with a Bachelors degree in Science, majoring in Computer Science and Information Technology Management.
             Eager to apply technical knowledge and analytical skills.
           </p>
           <p>
-            With my double major, I have done projects related to database design, web development, 
-            end-to-end desktop applications, and programming and software development. 
+            With my double major, I have done projects related to database design, web development,
+            end-to-end desktop applications and software development.
           </p>
         </div>
         <div className="rightAbout">
@@ -131,16 +131,6 @@ const Home = () => {
               </tr>
             </tbody>
           </table>
-          {/* <FaHtml5 color = {FaBluesky} title = {"HTML"}/>
-           &nbsp;HTML
-           <FaPython color = {FaBluesky} title = {"HTML"}/>
-           <FaJava color = {FaBluesky} title = {"HTML"}/> */}
-          {/* {techs.map((tech, idx) => (
-          <div key={idx} className="flex flex-col items-center space-y-2">
-            <div className="icons">{tech.icon}</div>
-            <span className="icons">{tech.name}</span>
-          </div>
-        ))} */}
         </div>
       </div>
     </section>

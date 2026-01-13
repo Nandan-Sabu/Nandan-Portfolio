@@ -47,6 +47,7 @@ body {
 .hero {
   position: relative;
   overflow: hidden;
+  display: grid;
 }
 
 .hero-content {
@@ -167,7 +168,7 @@ h2 {
 
 /* Projects Page */
 .projects-page {
-  padding: 4rem 8%;
+  padding: 0 8%;
 }
 
 .projects-top-text {
@@ -305,6 +306,7 @@ h2 {
   height: 1.5rem;
   margin-bottom: 0.5rem;
   border: 0;
+  border-radius: 5px;
 }
 
 .contactMessage {
@@ -314,11 +316,20 @@ h2 {
   background-color: #1F2833;
   border: 0;
   resize: none;
+  border-radius: 5px;
 }
 
 .contactButton {
   align-items: left;
   height: 2rem;
+  width: 10rem;
+  border-radius: 5px;
+  background-color: #AAAAAA;
+  font-weight: bold;
+}
+
+.blankGap {
+  height: calc(100vh - 608px);
 }
 
 
@@ -352,4 +363,64 @@ h2 {
 .footer-links a:hover {
   color: white;
   text-decoration: underline;
+}
+
+
+@media (max-width: 768px) {
+
+  .aboutContainer {
+    flex-direction: column;
+  }
+
+  .leftAbout, .rightAbout {
+    width: 100%;
+    padding: 1rem;
+    width: auto;
+  }
+
+  .rightAbout table,
+  .rightAbout tbody,
+  .rightAbout tr {
+    display: block;
+    width: 100%;
+  }
+
+  .rightAbout tr {
+    margin-bottom: 2rem;
+  }
+
+  .rightAbout td {
+    display: block;
+    width: 100%;
+    padding: 3rem 0 0 0;
+  }
+
+  .rightAbout .headColumn {
+    font-weight: 600;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  .rightAbout td:nth-child(2) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem;
+  }
+
+/* Projects page */
+  .project-row {
+    grid-template-columns: 1fr;
+  }
+
+
+/* Contacts page */
+  .contactInputs {
+  width: 80%;
+}
+
+.contactMessage {
+  width: 80%;
+}
+
 }

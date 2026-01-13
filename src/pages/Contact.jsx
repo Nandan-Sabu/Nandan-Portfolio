@@ -11,8 +11,10 @@ const Contact = () => {
         <br/>
         <textarea className="contactMessage" name="message" placeholder="Message"></textarea>
         <br/>
+        <br/>
         <button className="contactButton">Send</button>
       </form>
+      <div className="blankGap"></div>
     </section>);
 }
 
