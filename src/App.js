@@ -67,7 +67,7 @@ function App() {
 export default App;
 */
 import './App.css';
-import Navbar from './components/Navbar';
+import Main from './components/Main';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import Projects from './pages/Projects';
@@ -76,15 +76,7 @@ import { HashRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <HashRouter className="container">
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/contact" element={<Contact />} />
-      </Routes>
-      <Footer className="footerContainer" />
-    </HashRouter>
+      <><Main /><Footer className="footerContainer" /></>
 
   );
 }

@@ -47,7 +47,7 @@ const Projects = () => {
   ];
 
   return (
-    <section className="projects-page">
+    <div className="projects-page">
       <div className="projects-top-text">
         <h1>My Projects</h1>
         <p>Here you can see some of the projects I’ve worked on during my degree and in my free time.</p>
@@ -80,7 +80,7 @@ const Projects = () => {
           onClose={() => setActiveProject(null)}
         />
       )}
-    </section>
+    </div>
   );
 };
 
