@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "./static/css/main.abb079ce.css",
-    "main.js": "./static/js/main.a19d71ca.js",
+    "main.css": "./static/css/main.cdb164b7.css",
+    "main.js": "./static/js/main.61192634.js",
     "static/js/453.f3139c4e.chunk.js": "./static/js/453.f3139c4e.chunk.js",
     "static/media/animal_re_id_img4.png": "./static/media/animal_re_id_img4.c7f79bf8a6134ca756e2.png",
     "static/media/animal_re_id_img.png": "./static/media/animal_re_id_img.15be589c23566764648b.png",
     "static/media/animal_re_id_img2.png": "./static/media/animal_re_id_img2.3dec7b138a07da2e4248.png",
+    "static/media/machine_language_img.png": "./static/media/machine_language_img.4dcfa889f5a7f565783d.png",
     "static/media/animal_re_id_img5.png": "./static/media/animal_re_id_img5.1f8d4b769f2bd1f976a5.png",
     "static/media/Background.jpg": "./static/media/Background.c704eb82cd1c46c5be43.jpg",
     "static/media/platformer_game_img3.png": "./static/media/platformer_game_img3.e719ad5c89c1d789061c.png",
@@ -23,6 +24,7 @@
     "static/media/r.svg": "./static/media/r.4ed14051c67016283bb1470c5d20afec.svg",
     "static/media/rstudio.svg": "./static/media/rstudio.85dd462142853dd8ca239a0d2870f2d3.svg",
     "static/media/javaicon.svg": "./static/media/javaicon.5447a3291afb769a1eb132275f4b85f5.svg",
+    "static/media/git.svg": "./static/media/git.8ee81345da1c18b6cdb4bbe93b464810.svg",
     "static/media/pythonicon.svg": "./static/media/pythonicon.744ffb84e4cd8e0d59bdac6f3f4b1e4b.svg",
     "static/media/tableau.svg": "./static/media/tableau.cef48fc30bd04b65292250329355bb0a.svg",
     "static/media/sql.svg": "./static/media/sql.de7e97b1d6223c9ca50c27e56000f1e9.svg",
@@ -41,12 +43,12 @@
     "static/media/email.svg": "./static/media/email.fa08426f4ff1997efeec6ab11eea6183.svg",
     "static/media/jupyter.svg": "./static/media/jupyter.75ad08bdc5d051d93053156754ad0809.svg",
     "static/media/nodejs.svg": "./static/media/nodejs.c82851868879631d135719c5a27a5dae.svg",
-    "main.abb079ce.css.map": "./static/css/main.abb079ce.css.map",
-    "main.a19d71ca.js.map": "./static/js/main.a19d71ca.js.map",
+    "main.cdb164b7.css.map": "./static/css/main.cdb164b7.css.map",
+    "main.61192634.js.map": "./static/js/main.61192634.js.map",
     "453.f3139c4e.chunk.js.map": "./static/js/453.f3139c4e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.abb079ce.css",
-    "static/js/main.a19d71ca.js"
+    "static/css/main.cdb164b7.css",
+    "static/js/main.61192634.js"
   ]
 }
