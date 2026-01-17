@@ -24,25 +24,12 @@ import { ReactComponent as DrawioIcon } from "../icons/drawio.svg"
 import { ReactComponent as ElectronIcon } from "../icons/electron.svg"
 import { ReactComponent as NodeIcon } from "../icons/nodejs.svg"
 import { ReactComponent as ExpressIcon } from "../icons/express.svg"
+import { ReactComponent as Git } from "../icons/git.svg"
+
 
 import { ReactComponent as SQLserverIcon } from "../icons/sqlservericon.svg"
 import { ReactComponent as MongodbIcon } from "../icons/mongodb.svg"
 import { ReactComponent as SqliteIcon } from "../icons/sqlite.svg"
-
-import ProjectModal from "../components/ProjectModal";
-
-import project1_1 from "../project_pics/animal_re_id_img.png";
-import project1_2 from "../project_pics/animal_re_id_img5.png";
-import project1_3 from "../project_pics/animal_re_id_img2.png";
-import project1_4 from "../project_pics/animal_re_id_img3.png";
-import project1_5 from "../project_pics/animal_re_id_img4.png";
-
-
-import project2_1 from "../project_pics/platformer_game_img.png";
-import project2_2 from "../project_pics/platformer_game_img2.png";
-import project2_3 from "../project_pics/platformer_game_img3.png";
-import project2_4 from "../project_pics/platformer_game_img4.png";
-import Projects from './Projects';
 
 
 const Home = () => {
@@ -68,38 +55,6 @@ const Home = () => {
     return () => window.removeEventListener("mousemove", handleMouseMove);
   }, []);
 
-  const [activeProject, setActiveProject] = useState(null);
-
-  const projects = [
-    {
-      title: "Animal Re-identification Desktop Application",
-      description: `
-        Desktop application that implements AI to 
-      `,
-      images: [
-        project1_1,
-        project1_2,
-        project1_3,
-        project1_4,
-        project1_5
-      ],
-    },
-    {
-      title: "Multi-Level Platformer Game",
-      description: `
-        A cross-platform desktop application developed using Electron.
-        The project involved designing the UI, implementing core logic,
-        and integrating local data storage.
-      `,
-      images: [
-        project2_1,
-        project2_2,
-        project2_3,
-        project2_4,
-      ],
-    },
-  ];
-
   return (
     <div className="home-page">
       <div className="hero">
@@ -117,6 +72,7 @@ const Home = () => {
       <div className="aboutContainer">
         <div className="leftAbout">
           <div className='profileIcon'><ProfileIcon /></div>
+          <div className='leftAboutText'>
           <h2>Nandan Sabu</h2>
           <p className="p1">I am a highly motivated graduate who is passionate about software development. Skilled in
             programming languages such as Python, Java and React.
@@ -127,6 +83,7 @@ const Home = () => {
             With my double major, I have done projects related to database design, web development,
             end-to-end desktop applications and software development.
           </p>
+          </div>
         </div>
         <div className="rightAbout">
           <table>
@@ -160,6 +117,7 @@ const Home = () => {
                   <Toolbox name='Trello' icon={<TrelloIcon />} />
                   <Toolbox name='Tableau' icon={<TableauIcon />} />
                   <Toolbox name='Draw.io' icon={<DrawioIcon />} />
+                  <Toolbox name='Git' icon={<Git />} />
                 </td>
               </tr>
               <tr>
