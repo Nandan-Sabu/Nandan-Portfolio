@@ -7,6 +7,14 @@ import project1_3 from "../project_pics/animal_re_id_img2.png";
 import project1_4 from "../project_pics/animal_re_id_img3.png";
 import project1_5 from "../project_pics/animal_re_id_img4.png";
 
+import project5_1 from "../project_pics/ninjagame_img.png";
+import project5_2 from "../project_pics/ninjagame_img2.png";
+import project5_3 from "../project_pics/ninjagame_img3.png";
+import project5_4 from "../project_pics/ninjagame_img4.png";
+import project5_5 from "../project_pics/ninjagame_img5.png";
+import project5_6 from "../project_pics/ninjagame_img6.png";
+import project5_7 from "../project_pics/ninjagame_img7.png";
+import project5_8 from "../project_pics/ninjagame_img8.png";
 
 import project2_1 from "../project_pics/platformer_game_img.png";
 import project2_2 from "../project_pics/platformer_game_img2.png";
@@ -41,12 +49,36 @@ const Projects = () => {
         Node.js and Express.js backend handles application logic and data flow, while an AI inference 
         server built with Anaconda and PyTorch performs animal detection and re-identification.
       `,
-      images: [
+      images: [  
         project1_1,
         project1_2,
         project1_3,
         project1_4,
         project1_5
+      ],
+    },
+    {
+      title: "Unity website game",
+      description: `
+        Developed a 2D game where the player can register an account and log in. They use arrow keys or WASD to control 
+        the ninja character to dodge knives that are thrown from above. There is a 3 life system and the player can also 
+        collect hearts that float down randomly. There is features to pause the game, control the music volume, see leaderboard 
+        to see top 10 scores of all time from all players and see personal high score. 
+        
+        The frontend was build using Unity Engine and C# scripts and deployed as a public website with CloudFlare to make the 
+        domain and to create the tunnel for the server which is installed locally on the home network. The backend is built 
+        using C# (.NET Core, REST API) to handle user authentication, game state management, and leaderboard functionality, with 
+        data stored in a SQL database.
+      `,
+      images: [  
+        project5_1,
+        project5_2,
+        project5_3,
+        project5_4,
+        project5_5,
+        project5_6,
+        project5_7,
+        project5_8,
       ],
     },
     {

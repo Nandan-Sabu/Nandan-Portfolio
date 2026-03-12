@@ -239,6 +239,7 @@ h2 {
 .project-text p {
   line-height: 1.6;
   opacity: 0.85;
+  text-align: left;
 }
 
 /* RIGHT CARD */
