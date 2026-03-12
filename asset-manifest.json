@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.22863e1a.css",
-    "main.js": "./static/js/main.ef3894f3.js",
+    "main.css": "./static/css/main.06d3e1c4.css",
+    "main.js": "./static/js/main.cd2484a8.js",
     "static/js/453.f3139c4e.chunk.js": "./static/js/453.f3139c4e.chunk.js",
     "static/media/animal_re_id_img4.png": "./static/media/animal_re_id_img4.c7f79bf8a6134ca756e2.png",
     "static/media/animal_re_id_img.png": "./static/media/animal_re_id_img.15be589c23566764648b.png",
@@ -14,11 +14,19 @@
     "static/media/platformer_game_img.png": "./static/media/platformer_game_img.67c123d44e15ce7a28e5.png",
     "static/media/platformer_game_img2.png": "./static/media/platformer_game_img2.2d4ba5080ce4425115a3.png",
     "static/media/platformer_game_img4.png": "./static/media/platformer_game_img4.7b42d51f722783fe2b78.png",
+    "static/media/ninjagame_img8.png": "./static/media/ninjagame_img8.ed07e51b2e7027e47178.png",
     "static/media/animal_re_id_img3.png": "./static/media/animal_re_id_img3.623b5e0aa118c58e8203.png",
+    "static/media/ninjagame_img7.png": "./static/media/ninjagame_img7.5d9407cdbbd6382f5353.png",
+    "static/media/ninjagame_img.png": "./static/media/ninjagame_img.936b31e25c0e373e0305.png",
     "static/media/bouncing_shape_img7.png": "./static/media/bouncing_shape_img7.7aa385fd549023912dab.png",
+    "static/media/ninjagame_img6.png": "./static/media/ninjagame_img6.291301aa53eedc71a845.png",
+    "static/media/ninjagame_img5.png": "./static/media/ninjagame_img5.7fe6ac8370883d244acc.png",
+    "static/media/ninjagame_img2.png": "./static/media/ninjagame_img2.34fd0b5a9115fbf4843d.png",
     "static/media/bouncing_shape_img6.png": "./static/media/bouncing_shape_img6.5a7f0d16415bc33ebc5b.png",
     "static/media/bouncing_shape_img5.png": "./static/media/bouncing_shape_img5.357f3ee55a2ab90a419d.png",
+    "static/media/ninjagame_img3.png": "./static/media/ninjagame_img3.8a88a1d95be0a2a07600.png",
     "static/media/bouncing_shape_img2.png": "./static/media/bouncing_shape_img2.0fbbb4564c5bcf32bfb0.png",
+    "static/media/ninjagame_img4.png": "./static/media/ninjagame_img4.da4430afa6bff5b0dd16.png",
     "static/media/bouncing_shape_img4.png": "./static/media/bouncing_shape_img4.0d7c05403a2ec3959497.png",
     "static/media/bouncing_shape_img3.png": "./static/media/bouncing_shape_img3.3ec6ea025965c4bc3769.png",
     "static/media/bouncing_shape_img.png": "./static/media/bouncing_shape_img.73680d6cf4a62953e820.png",
@@ -51,12 +59,12 @@
     "static/media/email.svg": "./static/media/email.fa08426f4ff1997efeec6ab11eea6183.svg",
     "static/media/jupyter.svg": "./static/media/jupyter.75ad08bdc5d051d93053156754ad0809.svg",
     "static/media/nodejs.svg": "./static/media/nodejs.c82851868879631d135719c5a27a5dae.svg",
-    "main.22863e1a.css.map": "./static/css/main.22863e1a.css.map",
-    "main.ef3894f3.js.map": "./static/js/main.ef3894f3.js.map",
+    "main.06d3e1c4.css.map": "./static/css/main.06d3e1c4.css.map",
+    "main.cd2484a8.js.map": "./static/js/main.cd2484a8.js.map",
     "453.f3139c4e.chunk.js.map": "./static/js/453.f3139c4e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.22863e1a.css",
-    "static/js/main.ef3894f3.js"
+    "static/css/main.06d3e1c4.css",
+    "static/js/main.cd2484a8.js"
   ]
 }
