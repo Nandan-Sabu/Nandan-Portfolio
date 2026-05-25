@@ -91,7 +91,7 @@ const Projects = () => {
       description: `
         Developed a voice identifier application using Python and PyQt for the graphical user interface. The application 
         allows users to record their voice, which is then processed to extract features such as Mel-Frequency Cepstral
-        Coefficients (MFCCs). These features are used to train a machine learning model that can identify and verify
+        Coefficients (MFCCs), using the VoiceEncoder class in Python resemblyzer library. These features are used to train a machine learning model that can identify and verify
         users based on their unique vocal characteristics. The application includes functionality for user registration, 
         voice recording, and real-time identification, demonstrating the integration of audio processing and machine
         `,
