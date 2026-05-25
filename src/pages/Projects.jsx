@@ -16,6 +16,10 @@ import project5_6 from "../project_pics/ninjagame_img6.png";
 import project5_7 from "../project_pics/ninjagame_img7.png";
 import project5_8 from "../project_pics/ninjagame_img8.png";
 
+import project6_2 from "../project_pics/voiceidentifier_img.png";
+import project6_1 from "../project_pics/voiceidentifier_img2.png";
+import project6_3 from "../project_pics/voiceidentifier_img3.png";
+
 import project2_1 from "../project_pics/platformer_game_img.png";
 import project2_2 from "../project_pics/platformer_game_img2.png";
 import project2_3 from "../project_pics/platformer_game_img3.png";
@@ -81,15 +85,35 @@ const Projects = () => {
         project5_8,
       ],
     },
+
+    {
+      title: "Voice Identifier Application",
+      description: `
+        Developed a voice identifier application using Python and PyQt for the graphical user interface. The application 
+        allows users to record their voice, which is then processed to extract features such as Mel-Frequency Cepstral
+        Coefficients (MFCCs). These features are used to train a machine learning model that can identify and verify
+        users based on their unique vocal characteristics. The application includes functionality for user registration, 
+        voice recording, and real-time identification, demonstrating the integration of audio processing and machine
+        `,
+        images: [
+          project6_1,
+          project6_2,
+          project6_3,
+        ],
+    },
+
     {
       title: "Multi-Level Platformer Game",
       description: `
-        Developed a multi-level 2D platformer game using Python, applying object-oriented 
-        programming principles to structure core gameplay systems. The game features multiple 
-        interconnected levels designed with Tiled, incorporating player movement, collision
-         handling, enemies, and interactive environments. Gameplay mechanics include collectible
-          items, moving platforms, portals, hazards, and level transitions, supported by animations 
-          and audio to enhance the player experience.
+        Developed a real-time speaker identification desktop application using Python, applying 
+        machine learning and signal processing principles to build a voice recognition system. 
+        The application features a two-phase pipeline: an enrollment phase where voice embeddings 
+        are extracted using a pre-trained deep learning encoder (Resemblyzer) and persisted locally, 
+        and an identification phase that continuously listens through the microphone and matches 
+        incoming audio against saved profiles using cosine similarity. Built with a modern 
+        CustomTkinter UI including live microphone volume visualisation, speaker history logging, 
+        and persistent profile management across sessions. Packaged as a standalone Windows 
+        executable using PyInstaller for easy distribution.
       `,
       images: [
         project2_1,
